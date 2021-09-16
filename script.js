@@ -5,7 +5,7 @@ var body = document.getElementById("gradient");
 var button = document.getElementById("enter");
 
 window.addEventListener('load', function(){
-	css.appendChild(document.createTextNode("rgba(0, 0, 0, 0) linear-gradient(to right, red , yellow) repeat scroll 0% 0%;"));
+	css.appendChild(document.createTextNode("linear-gradient(to right, red , yellow) repeat scroll 0% 0%;"));
 })
 
 function setGradient() {
